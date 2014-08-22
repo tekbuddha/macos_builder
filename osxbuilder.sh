@@ -108,12 +108,13 @@ brew cask install transmission
 # Cask OmniSuite
 brew cask install omnigraffle
 
-# Cask Music/Video Software
+# Cask Entertainment Software
 brew cask install flash-player
 brew cask install linein
 brew cask install plex-home-theater
 brew cask install silverlight
 brew cask install spotify
+brew cask install steam
 brew cask install vlc
 brew cask install xld
 
