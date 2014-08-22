@@ -67,6 +67,7 @@ brew doctor
 brew tap homebrew/binary
 brew tap phinze/homebrew-cask
 brew tap caskroom/versions
+brew tap caskroom/fonts
 
 # Brew Utilities
 brew install brew-cask
@@ -117,6 +118,9 @@ brew cask install spotify
 brew cask install steam
 brew cask install vlc
 brew cask install xld
+
+# Cask Fonts
+brew cask install caskroom/fonts/font-source-code-pro
 
 # Presumptious configuration ahead!
 
