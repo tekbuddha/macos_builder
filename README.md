@@ -7,7 +7,7 @@ This is a (highly opinionated) setup script that automatically configure my OS X
 ## How To Use
 
 1. Install XCode Command Line Tools from [Apple](https://connect.apple.com).
-2. `curl raw.github.com/tekbuddha/osxbuilder/master/osxbuilder.sh | sh`
+2. `curl https://raw.githubusercontent.com/tekbuddha/osxbuilder/master/osxbuilder.sh | sh`
 1. Profit!
 
 *or...*
