@@ -81,7 +81,7 @@ brew install unrar
 brew install wget
 
 # Cask Web Browsers
-brew cask install google-chrome-canary
+#brew cask install google-chrome-canary
 brew cask install firefox
  
 # Cask Development Tools
@@ -100,7 +100,7 @@ brew cask install electric-sheep
 brew cask install fitbit-connect
 brew cask install flux
 brew cask install istat-menus
-brew cask install onepassword
+#brew cask install onepassword
 brew cask install quicksilver
 brew cask install skype
 brew cask install synergy
