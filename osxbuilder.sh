@@ -82,7 +82,7 @@ brew install wget
 
 # Cask Web Browsers
 #brew cask install google-chrome-canary
-brew cask install firefox
+#brew cask install firefox
  
 # Cask Development Tools
 brew cask install sublime-text3
@@ -97,7 +97,7 @@ brew cask install automatic
 brew cask install bartender
 brew cask install dropbox
 brew cask install electric-sheep
-brew cask install fitbit-connect
+#brew cask install fitbit-connect
 brew cask install flux
 brew cask install istat-menus
 #brew cask install onepassword
