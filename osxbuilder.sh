@@ -89,7 +89,7 @@ brew cask install sublime-text3
 brew cask install sourcetree
 brew cask install vagrant
 brew cask install virtualbox
-brew cask install vmware-fusion
+# brew cask install vmware-fusion
 brew cask install xquartz
 
 # Cask Utilities
