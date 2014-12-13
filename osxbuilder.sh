@@ -60,7 +60,7 @@ cd
 # Install Homebrew
 echo
 msginfo "Installing homebrew..."
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 
 # Install Homebrew taps
@@ -89,11 +89,11 @@ brew cask install sublime-text3
 brew cask install sourcetree
 brew cask install vagrant
 brew cask install virtualbox
-brew cask install vmware-fusion
+# brew cask install vmware-fusion
 brew cask install xquartz
 
 # Cask Utilities
-brew cask install automatic
+# brew cask install automatic
 brew cask install bartender
 brew cask install dropbox
 brew cask install electric-sheep
@@ -381,3 +381,14 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 for app in "Activity Monitor" "Contacts" "cfprefsd" "Dock" "Finder" "iTunes" "Mail" "Messages" "SystemUIServer"; do
 	killall "$app" > /dev/null 2>&1
 done
+
+
+## Vagrant Boxes (Optional)
+# vagrant box add opscode-ubuntu-12.04 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04_chef-provisionerless.box
+# vagrant box add opscode-ubuntu-12.10 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.10_chef-provisionerless.box
+# vagrant box add opscode-ubuntu-14.04 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.04_chef-provisionerless.box
+# vagrant box add opscode-ubuntu-14.10 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.10_chef-provisionerless.box
+# vagrant box add opscode-centos-6.4 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.4_chef-provisionerless.box
+# vagrant box add opscode-centos-6.5 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box
+# vagrant box add opscode-centos-6.6 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.6_chef-provisionerless.box
+# vagrant box add opscode-centos-7.0 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-7.0_chef-provisionerless.box
