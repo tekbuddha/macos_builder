@@ -4,15 +4,19 @@ This is a (highly opinionated) setup script that automatically configure my OS X
 
 **NOTE:** It is presumptious in use of my `dotfiles` Github repo, which will break for you given it is a private repo. I would suggest commenting out that section of the script prior to use. Everything else should work well.
 
+## XCode Command Line Tools
+
+This script makes use of XCode's Command Line Tools (namely, `git`). As the DMG for this toolset is behind Apple's Developer website, the quickest way to get this installed is to open `Terminal.app` and issue a quick `gcc`, which will then prompt you to install the CLT package.
+
 ## How To Use
 
-1. Install XCode Command Line Tools from [Apple](https://connect.apple.com).
-2. `curl https://raw.githubusercontent.com/tekbuddha/osxbuilder/master/osxbuilder.sh | sh`
+1. Install XCode Command Line Tools.
+2. `curl https://raw.githubusercontent.com/tekbuddha/osxbuilder/master/osxbuilder.sh | bash`
 1. Profit!
 
 *or...*
 
-1. Install XCode Command Line Tools from [Apple](https://connect.apple.com).
+1. Install XCode Command Line Tools.
 1. Select 'Download Zip' from the Github [page](https://github.com/tekbuddha/osxbuilder) or from your own fork. 
 1. Unzip `osxbuilder.zip` by double clicking. 
 1. cd ~/Downloads/osxbuilder
