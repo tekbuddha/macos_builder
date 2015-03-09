@@ -73,6 +73,7 @@ brew tap caskroom/fonts
 brew install brew-cask
 brew install coreutils
 brew install grc
+brew install httpie
 brew install nmap
 brew install packer
 brew install p7zip
