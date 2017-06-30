@@ -54,11 +54,8 @@ sudo scutil --set HostName "${macname}.home"
 # be commented out.
 echo
 msginfo "Cloning .dotfiles from Github"
-cd ${HOME}
-git clone https://github.com/tekbuddha/dotfiles.git .dotfiles
-cd .dotfiles
-./create_symlinks.sh
-cd ${HOME}
+git clone https://github.com/tekbuddha/dotfiles.git ${HOME}/.dotfiles
+${HOME}/create_symlinks.sh
 
 # Install Homebrew
 echo
