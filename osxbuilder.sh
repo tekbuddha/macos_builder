@@ -85,7 +85,7 @@ brew install wget
 # brew cask install google-chrome-canary
 # brew cask install firefox
  
-# Development Tools
+# Admin/Development Tools
 # brew cask install atom
 brew cask install github-desktop
 brew install packer
@@ -112,7 +112,8 @@ brew cask install skype
 # brew cask install synergy
 brew cask install transmission
 
-# OmniSuite
+# Productivity Tools
+brew cask install microsoft-office
 brew cask install omnigraffle
 brew cask install omniplan
 brew cask install omnioutliner
