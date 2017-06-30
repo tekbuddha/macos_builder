@@ -77,6 +77,7 @@ brew install brew-cask
 brew install coreutils
 brew install grc
 brew install httpie
+brew install mas
 brew install nmap
 brew install p7zip
 brew install tmux
