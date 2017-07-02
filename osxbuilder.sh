@@ -89,6 +89,7 @@ brew install wget
 # brew cask install atom
 brew cask install github-desktop
 brew install packer
+brew install reattach-to-user-namespace
 # brew cask install sublime-text3
 # brew cask install sourcetree
 brew cask install terraform
