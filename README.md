@@ -33,6 +33,4 @@ John Martin
 
 ## Copyright and License
 
-No copyright. It's a shell script to setup a workstation for cryin' out loud!
-
-Apache License 2.0
+No copyright. It's a shell script to setup a workstation for cryin' out loud! Fork it, clone it, whatever. Use as you find helpful.
