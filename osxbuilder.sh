@@ -88,6 +88,7 @@ brew install wget
 # Admin/Development Tools
 # brew cask install atom
 brew cask install github-desktop
+brew install kubernetes-cli
 brew install packer
 brew install reattach-to-user-namespace
 # brew cask install sublime-text3
