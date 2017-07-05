@@ -10,17 +10,9 @@ This script makes use of XCode's Command Line Tools (namely, `git`). As the DMG 
 
 ## How To Use
 
-1. Install XCode Command Line Tools.
-2. `curl https://raw.githubusercontent.com/tekbuddha/osxbuilder/master/osxbuilder.sh | bash`
-1. Profit!
-
-*or...*
-
-1. Install XCode Command Line Tools.
-1. Select 'Download Zip' from the Github [page](https://github.com/tekbuddha/osxbuilder) or from your own fork. 
-1. Unzip `osxbuilder.zip` by double clicking. 
-1. cd ~/Downloads/osxbuilder
-1. bash ./osxbuilder.sh
+1. Select 'Download Zip' from the Github [page](https://github.com/tekbuddha/osxbuilder), `git clone`, or work from your own fork. 
+1. `bash ./osxbuilder.sh`
+1. (optional) `bash ./mas_install.sh`
 1. Profit!
 
 
