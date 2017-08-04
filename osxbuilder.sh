@@ -104,6 +104,7 @@ brew cask install virtualbox
 # Utilities
 brew cask install aerial
 brew cask install bartender
+brew cask install calibre
 brew cask install dropbox
 brew cask install electric-sheep
 # brew cask install fitbit-connect
