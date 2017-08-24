@@ -109,6 +109,7 @@ brew cask install dropbox
 brew cask install electric-sheep
 # brew cask install fitbit-connect
 # brew cask install flux
+brew cask install google-backup-and-sync
 brew cask install istat-menus
 # brew cask install quicksilver
 brew cask install skype
