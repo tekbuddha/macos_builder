@@ -13,6 +13,7 @@ brew 'findutils'
 
 # Install Bash 4
 brew 'bash'
+brew 'bash-completion2'
 
 # Install more recent versions of some macOS tools
 brew 'homebrew/dupes/grep'
@@ -30,9 +31,12 @@ brew 'terraform'
 brew 'tree'
 brew 'mackup'
 brew 'mas'
+brew 'nmap'
 brew 'node'
 brew 'p7zip'
+brew 'ssh-copy-id'
 brew 'trash'
+brew 'tree'
 brew 'unrar'
 brew 'wget'
 brew 'vagrant'
@@ -123,3 +127,6 @@ mas 'Transmit', id: 403388562
 mas 'Tweetbot', id: 557168941
 mas 'WhatsApp', id: 1147396723
 mas 'WiFi Scanner', id: 411680127
+
+# Remove outdated versions from the cellar
+brew cleanup
