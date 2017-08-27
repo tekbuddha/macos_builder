@@ -1,5 +1,4 @@
 #!/bin/bash
-
 ###############################################################################
 # Finder                                                                      #
 ###############################################################################
@@ -110,3 +109,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 	General -bool true \
 	OpenWith -bool true \
 	Privileges -bool true
+
+
+# Restart app for changes to take affect...
+killall "Finder" &> /dev/null

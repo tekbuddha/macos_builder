@@ -30,13 +30,17 @@ realname=`id -F`
 firstname=`echo $realname | awk '{print $1}'`
 lastname=`echo $realname | awk '{print $2}'`
 
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+
 # Getting started...
 msginfo "Hello, ${firstname}. We're going to get this Mac into shape."
 msgalert "First, I need sudo privileges! I may ask a few more times during this process."
 
 sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until we've finished
+# Keep-alive: update existing `sudo` time stamp until `.macos` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 
@@ -65,19 +69,6 @@ fi
 brew bundle
 
 
-# Presumptious configuration ahead!
-
-# Clean up Dock & Downloads
-msginfo "Emptying your Dock and the Downloads folder."
-
-defaults write com.apple.dock persistent-apps -array ""
-killall Dock
-
-if [ -e ~/Downloads/About\ Downloads.lpdf ]
-    then
-    	rm -Rf ~/Downloads/About\ Downloads.lpdf
-fi
-
 # Begin applying system and application defaults
 msginfo "Inspecting conf.d for setting MacOS and application defaults."
 
@@ -88,7 +79,9 @@ for appConf in `ls conf.d`
   source conf.d/${appConf}
  done
 
-source macos-defaults.sh
+# source macos-defaults.sh
+
+echo "Done. Note that some of these changes require a logout/restart to take effect."
 
 ## Vagrant Boxes (Optional)
 # vagrant box add opscode-ubuntu-12.04 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04_chef-provisionerless.box
