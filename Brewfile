@@ -17,6 +17,7 @@ brew 'bash-completion2'
 
 # Install Binaries
 brew 'awscli'
+brew 'exa'
 brew 'git'
 brew 'grc'
 brew 'httpie'
