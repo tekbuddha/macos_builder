@@ -21,6 +21,8 @@ function msgalert {
 	echo "📣  $1"
 }
 
+# Useful variable for being able to copy files from ./init
+SOURCE=`pwd`
 
 # Acquire some knowledge about user...
 username=`whoami`
@@ -76,9 +78,17 @@ if [ -e ~/Downloads/About\ Downloads.lpdf ]
     	rm -Rf ~/Downloads/About\ Downloads.lpdf
 fi
 
-msginfo "Setting MacOS (and application) defaults."
-source macos-defaults.sh
+# Begin applying system and application defaults
+msginfo "Inspecting conf.d for setting MacOS and application defaults."
 
+for appConf in `ls conf.d`
+ do
+  msginfo "Executing ${appConf}..."
+
+  source conf.d/${appConf}
+ done
+
+source macos-defaults.sh
 
 ## Vagrant Boxes (Optional)
 # vagrant box add opscode-ubuntu-12.04 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04_chef-provisionerless.box
