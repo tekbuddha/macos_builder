@@ -48,15 +48,6 @@ msginfo "Okay, setting this box up as $macname"
 sudo scutil --set ComputerName $macname
 sudo scutil --set HostName "${macname}.home"
 
-
-# Sync .dotfiles from Github
-# If you've got your own dotfile management, here's the place to do it. Otherwise this section should
-# be commented out.
-echo
-msginfo "Cloning .dotfiles from Github"
-git clone https://github.com/tekbuddha/dotfiles.git ${HOME}/.dotfiles
-${HOME}/create_symlinks.sh
-
 # Install Homebrew
 echo
 msginfo "Installing homebrew..."
