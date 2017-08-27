@@ -127,6 +127,3 @@ mas 'Transmit', id: 403388562
 mas 'Tweetbot', id: 557168941
 mas 'WhatsApp', id: 1147396723
 mas 'WiFi Scanner', id: 411680127
-
-# Remove outdated versions from the cellar
-brew cleanup
