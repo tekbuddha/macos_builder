@@ -848,7 +848,6 @@ for app in "Activity Monitor" \
 	"Safari" \
 	"Spectacle" \
 	"SystemUIServer" \
-	"Terminal" \
 	"Transmission" \
 	"Tweetbot" \
 	"Twitter" \
