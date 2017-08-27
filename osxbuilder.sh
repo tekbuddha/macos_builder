@@ -30,7 +30,7 @@ lastname=`echo $realname | awk '{print $2}'`
 
 # Getting started...
 msginfo "Hello, ${firstname}. We're going to get this Mac into shape."
-msgalert "First, I need sudo privileges!"
+msgalert "First, I need sudo privileges! I may ask a few more times during this process."
 
 sudo -v
 
