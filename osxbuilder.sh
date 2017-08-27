@@ -63,78 +63,8 @@ msginfo "Installing homebrew..."
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 
-# Install Homebrew taps
-brew tap homebrew/binary
-brew tap phinze/homebrew-cask
-brew tap caskroom/versions
-brew tap caskroom/fonts
-
-# Core/Shell Utilities
-brew install brew-cask
-brew install coreutils
-brew install grc
-brew install httpie
-brew install mas
-brew install nmap
-brew install p7zip
-brew install tmux
-brew install unrar
-brew install wget
-
-# Web Browsers
-# brew cask install google-chrome-canary
-# brew cask install firefox
- 
-# Admin/Development Tools
-# brew cask install atom
-brew cask install github-desktop
-brew install kubernetes-cli
-brew install packer
-brew install reattach-to-user-namespace
-# brew cask install sublime-text3
-# brew cask install sourcetree
-brew cask install terraform
-brew cask install vagrant
-brew cask install vault
-brew cask install visual-studio-code
-brew cask install virtualbox
-# brew cask install vmware-fusion
-# brew cask install xquartz
-
-# Utilities
-brew cask install aerial
-brew cask install bartender
-brew cask install calibre
-brew cask install dropbox
-brew cask install electric-sheep
-# brew cask install fitbit-connect
-# brew cask install flux
-brew cask install google-backup-and-sync
-brew cask install istat-menus
-# brew cask install quicksilver
-brew cask install skype
-# brew cask install synergy
-brew cask install transmission
-
-# Productivity Tools
-brew cask install microsoft-office
-brew cask install omnigraffle
-brew cask install omniplan
-brew cask install omnioutliner
-
-# Entertainment Software
-# brew cask install flash-player
-# brew cask install linein
-brew cask install plex-home-theater
-# brew cask install silverlight
-brew cask install spotify
-brew cask install steam
-brew cask install vlc
-brew cask install xld
-
-# Fonts
-brew cask install caskroom/fonts/font-source-code-pro
-
+# Install brew packages (including Mac AppStore packages) via Brewfile
+brew bundle
 
 
 # Presumptious configuration ahead!
