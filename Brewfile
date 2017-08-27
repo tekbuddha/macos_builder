@@ -73,7 +73,7 @@ cask 'xld'
 cask 'vmware-fusion'
 
 # Fonts
-cask 'font-sauce-code-powerline'
+cask 'font-meslo-nerd-font'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
