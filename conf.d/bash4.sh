@@ -6,7 +6,7 @@ if [ -e /usr/local/bin/bash ]
 then
  echo "Found bash4 brew binary."
  
- if [ ! `grep /usr/local/bin/bash /etc/shell` ]
+ if [ ! `grep /usr/local/bin/bash /etc/shells` ]
   then
    echo "Adding to /etc/shells..."
    sudo sh -c "echo '/usr/local/bin/bash' >> /etc/shells"
