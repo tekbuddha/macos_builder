@@ -1,27 +1,23 @@
 ## osxbuilder
 
-This is a (highly opinionated) setup script that automatically configure my OS X systems to a "usable" state following a clean OS X install. This gets me as pretty close to useable in a realively short period of time.
+This is a highly opinionated setup script that automatically configures my MacOS systems to a "usable" state following a clean MacOS install. This gets me as pretty close to useable in a realively short period of time.
 
-**NOTE:** It is presumptious in use of my `dotfiles` Github repo, which will break for you given it is a private repo. I would suggest commenting out that section of the script prior to use. Everything else should work well.
+### Dependencies
 
-## XCode Command Line Tools
+This script makes use of XCode's Command Line Tools (namely, `git`, `gcc`, and other build-type tools). The quickest way to get this installed is to open `Terminal.app` and issue a quick `gcc`, which will then prompt you to install the CLT package.
 
-This script makes use of XCode's Command Line Tools (namely, `git`). As the DMG for this toolset is behind Apple's Developer website, the quickest way to get this installed is to open `Terminal.app` and issue a quick `gcc`, which will then prompt you to install the CLT package.
-
-## How To Use
+### How To Use
 
 1. Select 'Download Zip' from the Github [page](https://github.com/tekbuddha/osxbuilder), `git clone`, or work from your own fork. 
 1. `bash ./osxbuilder.sh`
-1. (optional) `bash ./mas_install.sh`
 1. Profit!
 
 
 ## Author
 
-John Martin
-
-+ [Github](https://github.com/tekbuddha)
-+ [Twitter](https://twitter.com/tekbuddha)
+| [![twitter/tekbuddha](https://en.gravatar.com/userimage/270265/3ce5a7d2212c15b6072cafbe898c687e.jpg)](http://twitter.com/tekbuddha "Follow @tekbuddha on Twitter") |
+|---|
+| [John Martin](http://tekbuddha.com/) |
 
 ## Copyright and License
 
