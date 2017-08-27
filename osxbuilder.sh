@@ -50,9 +50,14 @@ sudo scutil --set HostName "${macname}.home"
 
 # Install Homebrew
 echo
-msginfo "Installing homebrew..."
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
+if [ `which brew` ]
+then
+	echo "brew already installed. Skipping..."
+else
+	msginfo "Installing homebrew..."
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	brew doctor
+fi
 
 # Install brew packages (including Mac AppStore packages) via Brewfile
 brew bundle

@@ -15,9 +15,6 @@ brew 'findutils'
 brew 'bash'
 brew 'bash-completion2'
 
-# Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
-
 # Install Binaries
 brew 'awscli'
 brew 'git'
