@@ -79,4 +79,4 @@ for appConf in `ls conf.d`
   source conf.d/${appConf}
  done
 
-echo "Done. Note that some of these changes require a logout/restart to take effect."
+msgalert "Done. Note that some of these changes require a logout/restart to take effect."
