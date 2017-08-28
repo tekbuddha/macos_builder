@@ -1,4 +1,4 @@
-## osxbuilder
+## macos_builder
 
 This is a highly opinionated setup script that automatically configures my MacOS systems to a "usable" state following a clean MacOS install. This gets me as pretty close to useable in a realively short period of time.
 
@@ -17,8 +17,8 @@ Basically it works like so:
 
 ### How To Use
 
-1. Select 'Download Zip' from the Github [page](https://github.com/tekbuddha/osxbuilder), `git clone`, or work from your own fork. 
-1. `chmod 700 *.sh ; ./osxbuilder.sh`
+1. Select 'Download Zip' from the Github [page](https://github.com/tekbuddha/macos_builder), `git clone`, or work from your own fork. 
+1. `./macos_builder.sh`
 1. Viola! A Mac with tons of apps and settings is ready to roll.
 
 ## Author
