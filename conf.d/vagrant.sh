@@ -11,6 +11,8 @@ for currentBox in $boxes
  do
   if [ `ls ~/.vagrant.d/boxes/ | grep ${currentBox}` ]
    then
+    echo " ${currentBox} alread exists. Skipping..."
+  else
     vagrant box add bento/${currentBox} --provider virtualbox
   fi
  done
