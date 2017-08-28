@@ -13,4 +13,4 @@ for currentBox in $boxes
    then
     vagrant box add bento/${currentBox} --provider virtualbox
   fi
-
+ done
