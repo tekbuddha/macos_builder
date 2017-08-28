@@ -3,23 +3,14 @@
 # Vagrant                                                                     #
 ###############################################################################
 
-# Add vagrant boxes
-vagrant box add bento/centos-6.4 --provider virtualbox
-vagrant box add bento/centos-6.5 --provider virtualbox
-vagrant box add bento/centos-6.6 --provider virtualbox
-vagrant box add bento/centos-6.7 --provider virtualbox
-vagrant box add bento/centos-7.0 --provider virtualbox
-vagrant box add bento/centos-7.1 --provider virtualbox
-vagrant box add bento/centos-7.2 --provider virtualbox
-vagrant box add bento/centos-7.3 --provider virtualbox
-vagrant box add bento/centos-7.4 --provider virtualbox
+# This script prefers bento boxes (https://github.com/chef/bento) and the
+# virtualbox provider.
+boxes="centos-6.6 centos-6.7 centos-7.1 centos-7.2 centos-7.3 centos-7.4 ubuntu-12.04 ubuntu-14.04 ubuntu-14.10 ubuntu-15.04 ubuntu-15.10 ubuntu-16.04 ubuntu-16.10 ubuntu-17.04"
 
-vagrant box add bento/ubuntu-12.04 --provider virtualbox
-vagrant box add bento/ubuntu-12.10 --provider virtualbox
-vagrant box add bento/ubuntu-14.04 --provider virtualbox
-vagrant box add bento/ubuntu-14.10 --provider virtualbox
-vagrant box add bento/ubuntu-15.04 --provider virtualbox
-vagrant box add bento/ubuntu-15.10 --provider virtualbox
-vagrant box add bento/ubuntu-16.04 --provider virtualbox
-vagrant box add bento/ubuntu-16.10 --provider virtualbox
-vagrant box add bento/ubuntu-17.04 --provider virtualbox
+for currentBox in $boxes
+ do
+  if [ `ls ~/.vagrant.d/boxes/ | grep ${currentBox}` ]
+   then
+    vagrant box add bento/${currentBox} --provider virtualbox
+  fi
+
