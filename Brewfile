@@ -81,7 +81,6 @@ cask 'font-source-serif-pro'
 mas '1Password', id: 443987910
 mas 'Acorn', id: 1019272813
 mas 'Airmail 3', id: 918858936
-mas 'Amadeus Pro', id: 438292371
 mas 'AutoMounter', id: 1160435653
 mas 'Bear', id: 1091189122
 mas 'BrowserFreedom', id: 1081203896
