@@ -62,7 +62,7 @@ cask 'omnigraffle'
 cask 'omniplan'
 cask 'omnioutliner'
 cask 'plex-media-player'
-cask `sabnzbd`
+cask 'sabnzbd'
 cask 'skype'
 cask 'spotify'
 cask 'steam'
