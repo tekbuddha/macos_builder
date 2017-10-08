@@ -94,9 +94,9 @@ mas 'Capo', id: 696977615
 mas 'DaisyDisk', id: 411643860
 mas 'Deckset', id: 847496013
 mas 'Evernote', id: 406056744
+mas 'Fantastical 2', id: 465023812
 mas 'GarageBand', id: 682658836
 mas 'HTTP Client', id: 418138339
-mas 'Kaspersky Virus Scanner', id: 450442327
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
 mas 'Logic Pro X', id: 634148309
