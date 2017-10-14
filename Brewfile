@@ -17,19 +17,30 @@ brew 'bash'
 brew 'bash-completion2'
 
 # Install Binaries
+brew 'autoconf'
+brew 'automake'
 brew 'awscli'
+brew 'aws-keychain'
+brew 'aws-shell'
 brew 'exa'
 brew 'git'
+brew 'gnutls'
+brew 'golang'
 brew 'grc'
+brew 'htop'
 brew 'httpie'
+brew 'keychain'
 brew 'kubernetes-cli'
 brew 'nmap'
 brew 'packer'
+brew 'pv'
 brew 'reattach-to-user-namespace'
+brew 'speedtest_cli'
 brew 'terraform'
 brew 'tree'
 brew 'mackup'
 brew 'mas'
+brew 'mtr'
 brew 'nmap'
 brew 'node'
 brew 'p7zip'
@@ -38,6 +49,7 @@ brew 'trash'
 brew 'tree'
 brew 'tmux'
 brew 'unrar'
+brew 'watch'
 brew 'wget'
 brew 'vault'
 
@@ -63,12 +75,9 @@ cask 'omnigraffle'
 cask 'omniplan'
 cask 'omnioutliner'
 cask 'plex-media-player'
-cask 'sabnzbd'
 cask 'skype'
-cask 'sonarr'
 cask 'spotify'
 cask 'steam'
-cask 'transmission'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
@@ -93,8 +102,7 @@ mas 'BrowserFreedom', id: 1081203896
 mas 'Capo', id: 696977615
 mas 'DaisyDisk', id: 411643860
 mas 'Deckset', id: 847496013
-mas 'Evernote', id: 406056744
-mas 'Fantastical 2', id: 465023812
+mas 'Fantastical 2', id: 975937182
 mas 'GarageBand', id: 682658836
 mas 'HTTP Client', id: 418138339
 mas 'Keynote', id: 409183694
