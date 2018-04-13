@@ -97,7 +97,6 @@ mas '1Password', id: 443987910
 mas 'Acorn', id: 1019272813
 mas 'Airmail 3', id: 918858936
 mas 'AutoMounter', id: 1160435653
-mas 'Bear', id: 1091189122
 mas 'BrowserFreedom', id: 1081203896
 mas 'Capo', id: 696977615
 mas 'DaisyDisk', id: 411643860
@@ -130,5 +129,6 @@ mas 'Tag Editor', id: 886882234
 mas 'Textual', id: 403012667
 mas 'Transmit', id: 403388562
 mas 'Tweetbot', id: 557168941
+mas 'UlyssesMac', id: 1225570693
 mas 'WhatsApp', id: 1147396723
 mas 'WiFi Scanner', id: 411680127
