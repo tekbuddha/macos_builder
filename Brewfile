@@ -55,14 +55,16 @@ brew 'vault'
 
 # Apps
 cask 'aerial'
+cask 'anylist'
 cask 'audio-hijack'
 cask 'bartender'
+cask 'discord'
 cask 'docker'
 cask 'dropbox'
 cask 'electric-sheep'
 cask 'firefox'
 cask 'fission'
-cask 'github'
+cask 'github-desktop'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'gpg-suite'
@@ -74,6 +76,7 @@ cask 'mysqlworkbench'
 cask 'omnigraffle'
 cask 'omniplan'
 cask 'omnioutliner'
+cask 'owncloud'
 cask 'plex-media-player'
 cask 'skype'
 cask 'spotify'
@@ -93,7 +96,7 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
+mas '1Password 7', id: 1333542190
 mas 'Acorn', id: 1019272813
 mas 'Airmail 3', id: 918858936
 mas 'AutoMounter', id: 1160435653
