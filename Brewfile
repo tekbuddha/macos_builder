@@ -29,6 +29,7 @@ brew 'golang'
 brew 'grc'
 brew 'htop'
 brew 'httpie'
+brew 'hugo'
 brew 'keychain'
 brew 'kubernetes-cli'
 brew 'nmap'
@@ -103,6 +104,7 @@ mas 'AutoMounter', id: 1160435653
 mas 'BrowserFreedom', id: 1081203896
 mas 'Capo', id: 696977615
 mas 'DaisyDisk', id: 411643860
+mas 'Day One', id: 1055511498
 mas 'Deckset', id: 847496013
 mas 'Fantastical 2', id: 975937182
 mas 'GarageBand', id: 682658836
@@ -117,10 +119,10 @@ mas 'MindNode', id: 992076693
 mas 'Moom', id: 419330170
 mas 'Numbers', id: 409203825
 mas 'OmniFocus', id: 867299399
-mas 'OmniGraphSketcher', id: 404651688
 mas 'Pages', id: 409201541
 mas 'Paprika Recipe Manager', id: 451907568
 mas 'Patterns', id: 429449079
+mas 'PDFpen 6', id: 609301478
 mas 'Pixelmator', id: 407963104
 mas 'Power JSON Editor', id: 499768540
 mas 'Screens', id: 446107677
