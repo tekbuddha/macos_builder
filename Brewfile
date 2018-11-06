@@ -130,7 +130,7 @@ mas 'Spillo', id: 873245660
 mas 'Tag Editor', id: 886882234
 mas 'Textual', id: 403012667
 mas 'Transmit', id: 403388562
-mas 'Tweetbot', id: 557168941
+mas 'Tweetbot', id: 1384080005
 mas 'UlyssesMac', id: 1225570693
 mas 'WhatsApp', id: 1147396723
 mas 'WiFi Scanner', id: 411680127
