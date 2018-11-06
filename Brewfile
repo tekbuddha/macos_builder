@@ -117,7 +117,6 @@ mas 'MindNode', id: 992076693
 mas 'Moom', id: 419330170
 mas 'Numbers', id: 409203825
 mas 'OmniFocus', id: 867299399
-mas 'OmniGraphSketcher', id: 404651688
 mas 'Pages', id: 409201541
 mas 'Paprika Recipe Manager', id: 451907568
 mas 'Patterns', id: 429449079
