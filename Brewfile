@@ -3,7 +3,6 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/dupes'
 tap 'buo/cask-upgrade'
 
 # Install GNU core utilities (those that come with macOS are outdated)
