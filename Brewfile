@@ -4,7 +4,7 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'buo/cask-upgrade'
-tap 'chef/chefdk'
+tap 'chef/chef'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
