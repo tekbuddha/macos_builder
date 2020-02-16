@@ -59,8 +59,8 @@ cask 'aerial'
 cask 'anylist'
 cask 'audio-hijack'
 cask 'bartender'
-cask 'chefdk'
-cask 'discord'
+# cask 'chefdk'
+# cask 'discord'
 cask 'docker'
 cask 'dropbox'
 cask 'electric-sheep'
@@ -71,12 +71,12 @@ cask 'google-chrome'
 cask 'istat-menus'
 cask 'iterm2'
 cask 'loopback'
-cask 'microsoft-office'
-cask 'mysqlworkbench'
+# cask 'microsoft-office'
+# cask 'mysqlworkbench'
 cask 'omnigraffle'
 cask 'omniplan'
 cask 'omnioutliner'
-cask 'owncloud'
+cask 'nextcloud'
 cask 'plex-media-player'
 cask 'skype'
 cask 'spotify'
@@ -129,7 +129,6 @@ mas 'Screens', id: 446107677
 mas 'Shush', id: 496437906
 mas 'Slack', id: 803453959
 mas 'Soulver', id: 413965349
-mas 'Spillo', id: 873245660
 mas 'Tag Editor', id: 886882234
 mas 'Textual', id: 403012667
 mas 'Transmit', id: 403388562
