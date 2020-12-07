@@ -6,6 +6,8 @@ This is a highly opinionated setup script that automatically configures my MacOS
 
 This script makes use of XCode's Command Line Tools (namely, `git`, `gcc`, and other build-type tools). The quickest way to get this installed is to open `Terminal.app` and issue a quick `gcc`, which will then prompt you to install the CLT package.
 
+This script also makes use of the MacOS App Store, so you should ensure you're signed into the App Store before starting. If for some reason you miss that and receive errors during the package install stage, no problem! Just run `brew bundle` from the same directory you've placed this script and it should pick up cleanly.
+
 ### How It Works
 
 Basically it works like so:
