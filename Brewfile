@@ -88,7 +88,7 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'xld'
 cask 'vmware-fusion'
-cask 'zoomus'
+cask 'zoom'
 
 # Fonts
 cask 'font-meslo-nerd-font'
