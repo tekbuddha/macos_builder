@@ -5,7 +5,7 @@
 
 # This script prefers bento boxes (https://github.com/chef/bento) and the
 # virtualbox provider.
-boxes="centos-6.7 centos-7.9 ubuntu-18.04 ubuntu-20.04"
+boxes="centos/7 ubuntu-18.04 ubuntu-20.04"
 
 for currentBox in $boxes
  do
