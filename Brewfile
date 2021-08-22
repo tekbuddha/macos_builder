@@ -1,90 +1,99 @@
-# Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
-tap 'homebrew/bundle'
-tap 'buo/cask-upgrade'
-tap 'chef/chef'
+tap "buo/cask-upgrade"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
 
-# Install GNU core utilities (those that come with macOS are outdated)
-brew 'coreutils'
 
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew 'findutils'
+brew "ansible"
+brew "autoconf"
+brew "automake"
+brew "aws-iam-authenticator"
+brew "aws-keychain"
+brew "aws-okta"
+brew "aws-shell"
+brew "awscli"
+brew "bash"
+brew "bash-completion@2"
+brew "bat"
+brew "coreutils"
+brew "fd"
+brew "gnutls"
+brew "ffmpeg"
+brew "findutils"
+brew "fzf"
+brew "git"
+brew "gnu-sed"
+brew "go"
+brew "grc"
+brew "htop"
+brew "httpie"
+brew "hugo"
+brew "jq"
+brew "keychain"
+brew "kubernetes-cli"
+brew "kubectx"
+brew "lazydocker"
+brew "mackup"
+brew "mas"
+brew "minikube"
+brew "mtr"
+brew "mysql-client@5.7"
+brew "nmap"
+brew "node"
+brew "p7zip"
+brew "packer"
+brew "pv"
+brew "reattach-to-user-namespace"
+brew "speedtest-cli"
+brew "ssh-copy-id"
+brew "sysbench"
+brew "terraform"
+brew "tmux"
+brew "trash"
+brew "tree"
+brew "unrar"
+brew "vault"
+brew "watch"
+brew "wget"
 
-# Install Bash 4
-brew 'bash'
-brew 'bash-completion2'
+cask "aerial"
+cask "anylist"
+cask "audio-hijack"
+cask "authy"
+cask "bartender"
+cask "chefdk"
+cask "docker"
+cask "downie"
+cask "firefox"
+cask "fission"
+cask "font-meslo-for-powerline"
+cask "google-backup-and-sync"
+cask "istat-menus"
+cask "iterm2"
+cask "krisp"
+cask "loopback"
+cask "nextcloud"
+cask "omnigraffle"
+cask "openemu"
+cask "permute"
+cask "plex-media-player"
+cask "snowflake-snowsql"
+cask "soundsource"
+cask "spotify"
+cask "vagrant"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "visual-studio-code"
+cask "vlc"
+cask "vmware-fusion"
+cask "xld"
 
-# Install Binaries
-brew 'autoconf'
-brew 'automake'
-brew 'awscli'
-brew 'aws-keychain'
-brew 'aws-shell'
-brew 'git'
-brew 'gnutls'
-brew 'golang'
-brew 'grc'
-brew 'htop'
-brew 'httpie'
-brew 'hugo'
-brew 'keychain'
-brew 'kubernetes-cli'
-brew 'nmap'
-brew 'packer'
-brew 'pv'
-brew 'reattach-to-user-namespace'
-brew 'speedtest_cli'
-brew 'terraform'
-brew 'tree'
-brew 'mackup'
-brew 'mas'
-brew 'mtr'
-brew 'nmap'
-brew 'node'
-brew 'p7zip'
-brew 'ssh-copy-id'
-brew 'trash'
-brew 'tree'
-brew 'tmux'
-brew 'unrar'
-brew 'watch'
-brew 'wget'
-brew 'vault'
-
-# Apps
-cask 'aerial'
-cask 'anylist'
-cask 'audio-hijack'
-cask 'bartender'
-cask 'chefdk'
-cask 'docker'
-cask 'firefox'
-cask 'fission'
-cask 'google-backup-and-sync'
-cask 'google-chrome'
-cask 'istat-menus'
-cask 'iterm2'
-cask 'loopback'
-cask 'omnigraffle'
-cask 'nextcloud'
-cask 'plex-media-player'
-cask 'spotify'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'xld'
-cask 'vmware-fusion'
-cask 'zoomus'
-
-# Install Mac App Store apps
 mas "1Blocker", id: 1107421413
 mas "1Password 7", id: 1333542190
 mas "Acorn", id: 1019272813
-mas "Airmail", id: 918858936
 mas "AutoMounter", id: 1160435653
 mas "Browser Fairy", id: 483014855
 mas "DaisyDisk", id: 411643860
@@ -104,15 +113,11 @@ mas "Octotree", id: 1457450145
 mas "OmniFocus", id: 1346203938
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager", id: 451907568
-mas "Patterns", id: 429449079
 mas "Power JSON Editor", id: 499768540
 mas "Reeder", id: 1449412482
 mas "Save to Pocket", id: 1477385213
-mas "Screens", id: 446107677
 mas "Shush", id: 496437906
-mas "Slack", id: 803453959
 mas "Soulver", id: 413965349
 mas "Tag Editor", id: 886882234
-mas "Transmit", id: 403388562
 mas "Tweetbot", id: 1384080005
 mas "Ulysses", id: 1225570693
