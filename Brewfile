@@ -22,7 +22,6 @@ brew 'automake'
 brew 'awscli'
 brew 'aws-keychain'
 brew 'aws-shell'
-brew 'exa'
 brew 'git'
 brew 'gnutls'
 brew 'golang'
@@ -61,7 +60,6 @@ cask 'audio-hijack'
 cask 'bartender'
 cask 'chefdk'
 cask 'docker'
-cask 'dropbox'
 cask 'firefox'
 cask 'fission'
 cask 'google-backup-and-sync'
@@ -69,13 +67,10 @@ cask 'google-chrome'
 cask 'istat-menus'
 cask 'iterm2'
 cask 'loopback'
-cask 'mysqlworkbench'
 cask 'omnigraffle'
 cask 'nextcloud'
 cask 'plex-media-player'
-cask 'skype'
 cask 'spotify'
-cask 'steam'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
@@ -92,19 +87,16 @@ mas "Acorn", id: 1019272813
 mas "Airmail", id: 918858936
 mas "AutoMounter", id: 1160435653
 mas "Browser Fairy", id: 483014855
-mas "Capo", id: 696977615
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
 mas "Fantastical", id: 975937182
 mas "GarageBand", id: 682658836
 mas "HTTP Client", id: 418138339
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Logic Pro X", id: 634148309
 mas "MainStage 3", id: 634159523
-mas "Microsoft Remote Desktop", id: 715768417
 mas "MindNode", id: 992076693
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
@@ -113,8 +105,6 @@ mas "OmniFocus", id: 1346203938
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager", id: 451907568
 mas "Patterns", id: 429449079
-mas "PDFpen", id: 609301478
-mas "Pixelmator", id: 407963104
 mas "Power JSON Editor", id: 499768540
 mas "Reeder", id: 1449412482
 mas "Save to Pocket", id: 1477385213
