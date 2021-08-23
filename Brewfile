@@ -88,7 +88,7 @@ cask "vlc"
 cask "vmware-fusion"
 cask "xld"
 
-mas "1Blocker", id: 1107421413
+mas "1Blocker", id: 1365531024
 mas "1Password 7", id: 1333542190
 mas "Acorn", id: 1019272813
 mas "AutoMounter", id: 1160435653
