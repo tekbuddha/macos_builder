@@ -198,7 +198,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Save screenshots to the desktop Documents folder
 # Make them accessible from the Desktop
 mkdir -p ${HOME}/Documents/Screenshots
-ln -s ${HOME}/Documents ${HOME}/Desktop
+ln -s ${HOME}/Documents/Screenshots ${HOME}/Desktop
 defaults write com.apple.screencapture location -string "${HOME}/Documents/Screenshots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
