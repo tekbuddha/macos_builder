@@ -113,7 +113,7 @@ mas "OmniFocus", id: 1346203938
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager", id: 451907568
 mas "Power JSON Editor", id: 499768540
-mas "Reeder", id: 1449412482
+mas "Reeder", id: 1529448980
 mas "Save to Pocket", id: 1477385213
 mas "Shush", id: 496437906
 mas "Soulver", id: 413965349
