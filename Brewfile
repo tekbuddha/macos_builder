@@ -95,7 +95,7 @@ mas "AutoMounter", id: 1160435653
 mas "Browser Fairy", id: 483014855
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
-mas "Deliveries", id: 924726344
+mas "Deliveries", id: 290986013
 mas "Endel", id: 1484348796
 mas "Fantastical", id: 975937182
 mas "GarageBand", id: 682658836
