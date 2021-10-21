@@ -58,6 +58,7 @@ brew "watch"
 brew "wget"
 
 cask "aerial"
+cask "alfred"
 cask "anylist"
 cask "audio-hijack"
 cask "authy"
