@@ -118,7 +118,7 @@ mas "Power JSON Editor", id: 499768540
 mas "Reeder", id: 1529448980
 mas "Save to Pocket", id: 1477385213
 mas "Shush", id: 496437906
-mas "Soulver", id: 413965349
+mas "Soulver 3", id: 1508732804
 mas "Tag Editor", id: 886882234
 mas "Tweetbot", id: 1384080005
 mas "Ulysses", id: 1225570693
