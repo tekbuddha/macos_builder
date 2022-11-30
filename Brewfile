@@ -79,6 +79,7 @@ cask "omnigraffle"
 cask "openemu"
 cask "permute"
 cask "plex-media-player"
+cask "rectangle-pro"
 cask "snowflake-snowsql"
 cask "soundsource"
 cask "spotify"
@@ -108,7 +109,6 @@ mas "Kindle", id: 405399194
 mas "Logic Pro X", id: 634148309
 mas "MainStage 3", id: 634159523
 mas "MindNode", id: 992076693
-mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
 mas "Octotree", id: 1457450145
 mas "OmniFocus", id: 1346203938
