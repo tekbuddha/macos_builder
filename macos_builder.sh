@@ -52,7 +52,7 @@ read macname
 msginfo "Okay, setting this box up as $macname"
 
 sudo scutil --set ComputerName $macname
-sudo scutil --set HostName "${macname}.home"
+sudo scutil --set HostName "${macname}.local"
 
 # Install Homebrew
 echo
@@ -66,11 +66,12 @@ else
 fi
 
 # Install brew packages (including Mac AppStore packages) via Brewfile
+msginfo "Installing packages from brew bundle..."
 brew bundle
 
 
 # Begin applying system and application defaults
-msginfo "Inspecting conf.d for setting MacOS and application defaults."
+msginfo "Inspecting conf.d for setting MacOS and application defaults..."
 
 for appConf in `ls conf.d`
  do
