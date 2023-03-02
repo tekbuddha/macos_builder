@@ -121,7 +121,6 @@ mas "Paprika", id: 1303222628
 mas "Parcel", id: 639968404
 mas "Power JSON Editor", id: 499768540
 mas "Reeder", id: 1529448980
-mas "Save to Reader", id: 1640236961
 mas "Shush", id: 496437906
 mas "Slack", id: 803453959
 mas "Soulver 3", id: 1508732804
