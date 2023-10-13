@@ -115,13 +115,10 @@ mas "Mic Drop", id: 1489816366
 mas "MindNode", id: 1289197285
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
-mas "Octotree", id: 1457450145
-mas "OmniFocus", id: 1346203938
 mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
 mas "Power JSON Editor", id: 499768540
 mas "Reeder", id: 1529448980
-mas "Shush", id: 496437906
 mas "Slack", id: 803453959
 mas "Soulver 3", id: 1508732804
 mas "Tabular", id: 594958615
