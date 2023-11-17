@@ -107,7 +107,6 @@ mas "Day One", id: 1055511498
 mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
 mas "GarageBand", id: 682658836
-mas "Gemini 2", id: 1090488118
 mas "Hue Menu Bar", id: 1500678169
 mas "iMovie", id: 408981434
 mas "Ivory", id: 6444602274
